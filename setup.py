@@ -13,7 +13,7 @@ def read(filename):
     with codecs.open(os.path.join(cwd, filename), 'rb', 'utf-8') as h:
         return h.read()
 
-metadata = read(os.path.join(cwd, 'logger2tlg', '__init__.py'))
+metadata = read(os.path.join(cwd, 'logger2telegram', '__init__.py'))
 
 def extract_metaitem(meta):
     # swiped from https://hynek.me 's attr package
@@ -24,8 +24,8 @@ def extract_metaitem(meta):
     raise RuntimeError('Unable to find __{meta}__ string.'.format(meta=meta))
 
 setup(
-    name='logger2tlg',
-    version="0.0.1",
+    name='logger2telegram',
+    version="1.0.1",
     author='Bauyrzhan Ospan, CEO "Cleverest Technologies LLP"',
     author_email="main@cleverest.tech",
     url="https://github.com/bauyrzhanospan/telegram_logger",

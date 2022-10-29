@@ -7,7 +7,7 @@ This package includes simple pure python telegram bot that sends logs to chat.
 ## Algorithm
 
 ```python
-from logger2tlg import Logger2tlg
+from logger2telegram import Logger2tlg
 
 
 tlg = Logger2tlg(chat_id="123456789", bot_id="123456789:ABCDEF1234567890ABCDEF1234567890ABC")
@@ -26,6 +26,6 @@ tlg.log("Hello world!")
 `pip install logger2tlg`
 
 <!-- Badges -->
-[pypi-image]: https://img.shields.io/pypi/v/logger2tlg
-[pypi-url]: https://pypi.org/project/logger2tlg
+[pypi-image]: https://img.shields.io/pypi/v/logger2telegram
+[pypi-url]: https://pypi.org/project/logger2telegram
 
